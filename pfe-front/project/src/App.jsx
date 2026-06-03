@@ -33,13 +33,9 @@ import AgentProfile from './pages/agent/Profile';
 import CreateReclamation from './pages/citizen/CreateReclamation';
 import Accueil from './pages/Accueil';
 import ResetPassword from './pages/ResetPassword';
-import { initChat } from "./chat/initChat";
 import { useEffect } from 'react';
 
 function App() {
-    useEffect(() => {
-    initChat(); // 🔥 chat automatique au démarrage
-  }, []);
   return (
     <BrowserRouter>
       <AuthProvider>

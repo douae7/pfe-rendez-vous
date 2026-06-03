@@ -20,8 +20,7 @@ import {
 } from "lucide-react";
 import Swal from "sweetalert2";
 
-const API = "http://localhost:8080/api/auth/register";
-
+const API = "https://gestion-rendezvous-commune-production.up.railway.app/api/auth/register";
 const Register = () => {
   const navigate = useNavigate();
 
