@@ -17,8 +17,8 @@ import {
   FileText,
 } from "lucide-react";
 
-const API_CITIZENS = "http://localhost:8080/api/users/citizens";
-const API_DEPARTMENTS = "http://localhost:8080/api/departments";
+const API_CITIZENS = "https://gestion-rendezvous-commune-production.up.railway.app/api/users/citizens";
+const API_DEPARTMENTS = "https://gestion-rendezvous-commune-production.up.railway.app/api/departments";
 
 const CommuneAccueil = () => {
   const navigate = useNavigate();

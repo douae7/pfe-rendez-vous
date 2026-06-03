@@ -17,8 +17,8 @@ import Modal from '../../components/Modal';
 import Badge from '../../components/Badge';
 import StatCard from '../../components/StatCard';
 
-const API = "http://localhost:8080/api/users/agents";
-const DEP_API = "http://localhost:8080/api/departments";
+const API = "https://gestion-rendezvous-commune-production.up.railway.app/api/users/agents";
+const DEP_API = "https://gestion-rendezvous-commune-production.up.railway.app/api/departments";
 
 const Agents = () => {
 

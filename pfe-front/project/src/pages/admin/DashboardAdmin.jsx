@@ -47,9 +47,9 @@ const DashboardAdmin = () => {
     const fetchData = async () => {
       try {
         const [statsRes, apptRes, serviceRes] = await Promise.all([
-          axios.get("http://localhost:8080/api/admin/dashboard/stats"),
-          axios.get("http://localhost:8080/api/appointments/recent"),
-          axios.get("http://localhost:8080/api/admin/dashboard/services"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/admin/dashboard/stats"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/appointments/recent"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/admin/dashboard/services"),
         ]);
 
         setStats(statsRes.data || {});

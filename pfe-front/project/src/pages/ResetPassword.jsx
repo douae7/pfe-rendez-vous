@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Lock, CheckCircle, ArrowLeft } from 'lucide-react';
 import Swal from 'sweetalert2';
 
-const API_RESET = "http://localhost:8080/api/auth/reset-password";
+const API_RESET = "https://gestion-rendezvous-commune-production.up.railway.app/api/auth/reset-password";
 
 const ResetPassword = () => {
   const { token } = useParams(); // ✅ Récupère /reset-password/66232ffd-...

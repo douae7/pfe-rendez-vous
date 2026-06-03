@@ -27,7 +27,7 @@ import {
   getStatusLabel,
 } from "../../utils/helpers";
 
-const API = "http://localhost:8080/api/appointments";
+const API = "https://gestion-rendezvous-commune-production.up.railway.app/api/appointments";
 
 const AppointmentDetails = () => {
   const { id } = useParams();

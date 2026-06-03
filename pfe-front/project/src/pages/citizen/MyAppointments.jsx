@@ -19,8 +19,8 @@ import {
 
 import { generateAppointmentPDF } from '../../utils/pdfGenerator';
 
-const API_URL = 'http://localhost:8080/api/appointments';
-const API = 'http://localhost:8080/api';
+const API_URL = 'https://gestion-rendezvous-commune-production.up.railway.app/api/appointments';
+const API = 'https://gestion-rendezvous-commune-production.up.railway.app/api';
 
 const MyAppointments = () => {
   const user = JSON.parse(localStorage.getItem('user') || '{}');

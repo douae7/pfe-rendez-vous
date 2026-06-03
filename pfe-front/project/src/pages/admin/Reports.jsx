@@ -45,9 +45,9 @@ const Reports = () => {
     const fetchData = async () => {
       try {
         const [services, status, months] = await Promise.all([
-          axios.get("http://localhost:8080/api/reports/services"),
-          axios.get("http://localhost:8080/api/reports/status"),
-          axios.get("http://localhost:8080/api/reports/months"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/reports/services"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/reports/status"),
+          axios.get("https://gestion-rendezvous-commune-production.up.railway.app/api/reports/months"),
         ]);
 
         // SERVICES

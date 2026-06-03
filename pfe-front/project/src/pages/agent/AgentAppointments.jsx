@@ -22,7 +22,7 @@ import {
   getStatusLabel,
 } from "../../utils/helpers";
 
-const API = "http://localhost:8080/api";
+const API = "https://gestion-rendezvous-commune-production.up.railway.app/api";
 
 // ─────────────────────────────────────────────
 // CHECK < 24H

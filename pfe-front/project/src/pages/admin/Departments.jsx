@@ -15,8 +15,8 @@ import {
 import Modal from "../../components/Modal";
 import StatCard from "../../components/StatCard";
 
-const API = "http://localhost:8080/api/departments";
-const AGENTS_API = "http://localhost:8080/api/users/agents";
+const API = "https://gestion-rendezvous-commune-production.up.railway.app/api/departments";
+const AGENTS_API = "https://gestion-rendezvous-commune-production.up.railway.app/api/users/agents";
 
 // ✅ FIX IMPORTANT : pas /uploads ici
 const FILE_BASE_URL = "http://localhost:8080/";
